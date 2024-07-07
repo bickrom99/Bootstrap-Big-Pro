@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOOTSTRAP PROJECT-2</title>
+    <!-- min.css link here -->
+    <link rel="stylesheet" href="/css/style.min.css" />
+    <!-- BOOTSTRAP CDN HERE-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <!-- Navbar work here -->
+      <nav
+        id="nav_bg"
+        class="navbar navbar-expand-lg navbar-dark fixed-top navbar-scrolled"
+      >
+        <div class="container px-5">
+          <!-- nav-logo -->
+          <a
+            class="nav-brand text-decoration-none text-white fw-bolder fs-4"
+            href="#"
+            >SB UI Kit Pro</a
+          >
+          <!-- responsive button here -->
+          <button
+            class="navbar-toggler btn-success"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarExample"
+            aria-expanded="false"
+            aria-controls="navbarExample"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- ul all page here -->
+          <div id="navbarExample" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto me-lg-5">
+              <!-- Home page -->
+              <li class="nav-item p-1">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <!-- Landing page with Dropdown menu-->
+              <li class="nav-item dropdown dropdown-xl no-caret p-1">
+                <a
+                  id="navbarDropdownDemos"
+                  href="#"
+                  class="nav-link dropdown-toggle show"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="true"
+                  >Landings</a
+                >
+                <!-- Landing page dropdown menu -->
+                <div
+                  id="first_dropdown_menu"
+                  class="container dropdown-menu dropdown-menu-end me-lg-n25 me-xl-n15"
+                  aria-labelledby="navbarDropdownDemos"
+                  data-popper="static"
+                >
+                  <div class="row g-0">
+                    <div id="drpdn_col_1" class="col-6 p-lg-3 text-center">
+                      <div>
+                        <p>
+                          Multipurpose landing pages for a <br />
+                          variety of projects.
+                        </p>
+                        <button type="button" class="btn bg-white text-primary">
+                          View All
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-6 p-lg-3">
+                      <div class="row">
+                        <div class="col-5 text-start">
+                          <h6 class="dropdown-header text-primary">
+                            APPLICATIONS
+                          </h6>
+                          <a class="dropdown-item" href="#">Mobile app</a>
+                          <a class="dropdown-item" href="#">Desktop app</a>
+                          <div class="dropdown-divider border-0"></div>
+                          <!-- Business -->
+                          <h6 class="dropdown-header text-primary">BUSINESS</h6>
+                          <a class="dropdown-item" href="#">Multipurpose</a>
+                          <a class="dropdown-item" href="#">Agency</a>
+                          <a class="dropdown-item" href="#">Press</a>
+                          <a class="dropdown-item" href="#">Directory</a>
+                          <a class="dropdown-item" href="#">Rental</a>
+                          <a class="dropdown-item" href="#">Real Estate</a>
+                          <a class="dropdown-item" href="#">Classifieds</a>
+                          <div class="dropdown-divider border-0"></div>
+                          <!-- Lead Generation -->
+                          <h6 class="dropdown-header text-primary">
+                            LEAD GENARETION
+                          </h6>
+                          <a class="dropdown-item" href="#">Capture</a>
+                        </div>
+                        <!-- col-2 -->
+                        <div class="col-7">
+                          <h6 class="dropdown-header text-primary">PERSONAL</h6>
+                          <a class="dropdown-item" href="#">Resume</a>
+
+                          <a class="dropdown-item" href="#">Portfulio</a>
+                          <div class="dropdown-divider border-0"></div>
+                          <!-- Business -->
+                          <h6 class="dropdown-header text-primary">
+                            HEADER STYLES
+                          </h6>
+                          <a class="dropdown-item" href="#">Basic</a>
+                          <a class="dropdown-item" href="#">Basic(Signup)</a>
+                          <a class="dropdown-item" href="#">Graphic</a>
+                          <a class="dropdown-item" href="#">Graphic(Sign)</a>
+                          <a class="dropdown-item" href=""
+                            >Vedio Header
+                            <span class="badge bg-primary-soft bg-primary"
+                              >New!</span
+                            ></a
+                          >
+                          <a class="dropdown-item" href="#">Inner Page</a>
+                          <a class="dropdown-item" href="#">Nav Only</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <!-- Pages page with Dropdown menu-->
+              <li class="nav-item dropdown dropdown-xl no-caret p-1">
+                <a
+                  id="navbarDropdownDemos"
+                  href="#"
+                  class="nav-link dropdown-toggle show"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="true"
+                  >Pages</a
+                >
+                <!-- Landing page dropdown menu -->
+                <div
+                  id="first_dropdown_menu"
+                  class="container dropdown-menu dropdown-menu-end me-lg-n25 me-xl-n15"
+                  aria-labelledby="navbarDropdownDemos"
+                  data-popper="static"
+                >
+                  <div class="row g-0">
+                    <!-- col-1 -->
+                    <div class="col-lg-4 p-lg-4 text-start">
+                      <h6 class="dropdown-header text-primary">COMPANY</h6>
+                      <a class="dropdown-item" href="#">About</a>
+                      <a class="dropdown-item" href="#">Pricing</a>
+                      <a class="dropdown-item" href="#">Contact</a>
+                      <a class="dropdown-item" href="#">Team</a>
+                      <a class="dropdown-item" href="#">Terms</a>
+                      <div class="dropdown-divider border-0"></div>
+                      <!-- Business -->
+                      <h6 class="dropdown-header text-primary">SUPPORT</h6>
+                      <a class="dropdown-item" href="#">Help Center</a>
+                      <a class="dropdown-item" href="#">Knowledgebase</a>
+                      <a class="dropdown-item" href="#">Message Center</a>
+                      <a class="dropdown-item" href="#">Support Ticket</a>
+                    </div>
+                    <!-- col-2 -->
+                    <div class="col-lg-4 p-lg-4 text-start">
+                      <h6 class="dropdown-header text-primary">CAREERS</h6>
+                      <a class="dropdown-item" href="#">Careers list</a>
+                      <a class="dropdown-item" href="#">Position Details</a>
+                      <div class="dropdown-divider border-0"></div>
+                      <h6 class="dropdown-header text-primary">BLOG</h6>
+                      <a class="dropdown-item" href="#">Overview</a>
+                      <a class="dropdown-item" href="#">Post</a>
+                      <a class="dropdown-item" href="#">Achive</a>
+                      <div class="dropdown-divider border-0"></div>
+                      <h6 class="dropdown-header text-primary text-uppercase">
+                        Portfulio
+                      </h6>
+                      <a class="dropdown-item" href="#">Grid</a>
+                      <a class="dropdown-item" href="#">Lage Grid</a>
+                      <a class="dropdown-item" href="#">Masonry</a>
+                      <a class="dropdown-item" href="#">Case Study</a>
+                      <a class="dropdown-item" href="#">Project</a>
+                    </div>
+                    <!-- col-3 -->
+                    <div class="col-lg-4 p-lg-4 text-start">
+                      <h6 class="dropdown-header text-primary">ERROR</h6>
+                      <a class="dropdown-item" href="#">400 Error</a>
+                      <a class="dropdown-item" href="#">401 Error</a>
+                      <a class="dropdown-item" href="#">404 Error(option-1)</a>
+                      <a class="dropdown-item" href="#">404 Error(option-1)</a>
+                      <a class="dropdown-item" href="#">500 Error</a>
+                      <a class="dropdown-item" href="#">503 Error</a>
+                      <a class="dropdown-item" href="#">504 Error</a>
+                    </div>
+                    <!-- col-2 -->
+                  </div>
+                </div>
+              </li>
+              <!-- Documentation page with Dropdown menu -->
+              <li class="nav-item dropdown dropdown-xl no-caret p-1">
+                <a
+                  id="navbarDropdownDemos"
+                  href="#"
+                  class="nav-link dropdown-toggle show"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="true"
+                  >Documentation</a
+                >
+                <!-- Landing page dropdown menu -->
+                <div
+                  id="DocumentationDropdown"
+                  class="container dropdown-menu dropdown-menu-end me-lg-n25 me-xl-n15"
+                  aria-labelledby="navbarDropdownDemos"
+                  data-popper="static"
+                >
+                  <a
+                    class="dropdown-item py-3 d-flex align-items-center"
+                    href="#"
+                  >
+                    <div class="icon-stack bg-primary-soft text-primary me-4">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="currentColor"
+                        class="father father-book-open"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"
+                        />
+                      </svg>
+                    </div>
+                    <div>
+                      <div class="small text-gray-300">Documentation</div>
+                      Usage intractions and Reference
+                    </div>
+                  </a>
+                  <div class="dropdown-divider m-0"></div>
+                  <a
+                    class="dropdown-item py-3 d-flex align-items-center"
+                    href="#"
+                  >
+                    <div class="icon-stack bg-primary-soft text-primary me-4">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-code-slash"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"
+                        />
+                      </svg>
+                    </div>
+                    <div>
+                      <div class="small">Components</div>
+                      Code snippets and Reference
+                    </div>
+                  </a>
+                  <div class="dropdown-divider m-0"></div>
+                  <a
+                    class="dropdown-item py-3 d-flex align-items-center"
+                    href="#"
+                  >
+                    <div class="icon-stack bg-primary-soft text-primary me-4">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-file-earmark-medical"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M7.5 5.5a.5.5 0 0 0-1 0v.634l-.549-.317a.5.5 0 1 0-.5.866L6 7l-.549.317a.5.5 0 1 0 .5.866l.549-.317V8.5a.5.5 0 1 0 1 0v-.634l.549.317a.5.5 0 1 0 .5-.866L8 7l.549-.317a.5.5 0 1 0-.5-.866l-.549.317zm-2 4.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zm0 2a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"
+                        />
+                        <path
+                          d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"
+                        />
+                      </svg>
+                    </div>
+                    <div>
+                      <div class="small">Changelog</div>
+                      Updates and Changes
+                    </div>
+                  </a>
+                </div>
+              </li>
+            </ul>
+            <!-- contact btn here -->
+            <a
+              id="nav_btn_color"
+              href="#"
+              type="button"
+              class="btn fw-500 me-lg-4"
+            >
+              Buy Now
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                class="bi bi-arrow-right-short m-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <!-- Header-container work here -->
+      <header id="header_bg_color" class="page-header-ui page-header-ui-dark">
+        <div class="container px-5 pt-5 text-center">
+          <div class="row gx-5 align-items-center justify-content-center">
+            <div class="col">
+              <h4 class="text-white fw-semibold fs-3">Basic content page</h4>
+              <p id="header_txt" class="fs-5 fw-500">
+                Create beautiful pages with easy to edit content
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="svg-border-rounded4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 144.54 17.34"
+            preserveAspectRatio="none"
+            fill="currentColor"
+          >
+            <path
+              d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"
+            ></path>
+          </svg>
+        </div>
+      </header>
+      <!-- section_2 work here -->
+      <section class="py-10">
+        <div id="section_2_design" class="container px-5">
+          <div class="row gx-5 justify-content-center">
+            <div class="col-12 text-justify">
+              <h1>This is a basic content page.</h1>
+              <p class="lead">
+                You can use this page as a starting point to create your own
+                custom pages, or choose an already built example page to start
+                development!
+              </p>
+              <p class="lead">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui
+                quisquam animi temporibus ipsum iusto necessitatibus laudantium
+                beatae. Eligendi dolorum laudantium numquam? Officiis nemo error
+                animi aliquam dolor consequatur ducimus unde.
+              </p>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                repellat magni eaque beatae explicabo fugit placeat earum,
+                dolores quaerat aperiam vero adipisci quidem minus officiis
+                blanditiis unde? Incidunt, ea ad.
+              </p>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perspiciatis sed illum soluta, quaerat et deleniti magnam
+                laudantium, non omnis numquam quos placeat. Porro autem
+                consectetur dolor minima
+                <a href="/index.html">Come back home page</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="svg-border-rounded3">
+          <svg
+            id="section_2_bottom_rounded"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 144.54 17.34"
+            preserveAspectRatio="none"
+            fill="currentColor"
+          >
+            <path
+              d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"
+            ></path>
+          </svg>
+        </div>
+      </section>
+      <!-- Footer section design here -->
+      <section class="py-10">
+        <div id="basic_page_footer_bg" class="container-fluid">
+          <div class="container px-5 text-center">
+            <div class="row gx-5 mb-3">
+              <!-- col-1 with media quary-->
+              <div class="col-lg-3 mb-5 text-start">
+                <h4 id="SB_Ui_design" class="fw-bolder">SB UI Kit Pro</h4>
+                <h5 id="footer_text_design">Design made easy</h5>
+                <!-- Social-Media icon here -->
+                <div class="row mt-2">
+                  <div class="col-1">
+                    <a id="media_icon" href="#">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-instagram"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="col-1">
+                    <a id="media_icon" href="#">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-facebook"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="col-1">
+                    <a id="media_icon" href="#">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-github"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="col-1">
+                    <a id="media_icon" href="#">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-twitter"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <div class="row gx-5 text-start">
+                  <!-- PRODUCT -->
+                  <div class="col-lg-3 mb-3 col-md-6 text-start">
+                    <p id="footer_text_design" class="fw-semibold">PRODUCT</p>
+                    <ul class="list-unstyled mb-0">
+                      <li class="mb-2">
+                        <a id="text_hover" href="#">Landing</a>
+                      </li>
+                      <li class="mb-2">
+                        <a id="text_hover" href="#">Pages</a>
+                      </li>
+                      <li class="mb-2">
+                        <a id="text_hover" href="#">Sections</a>
+                      </li>
+                      <li class="mb-2">
+                        <a id="text_hover" href="#">Documentation</a>
+                      </li>
+                      <li class="mb-2">
+                        <a id="text_hover" href="#">Changelog</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- TECHNICAL -->
+                  <div class="col-lg-3 mb-3 col-md-6 text-start">
+                    <p id="footer_text_design" class="fw-semibold">TECHNICAL</p>
+                    <ul class="list-unstyled mb-0">
+                      <li class="mb-2">
+                        <a id="text_hover" href="#">Documentation</a>
+                      </li>
+                      <li class="mb-2">
+                        <a id="text_hover" href="#">Changelog</a>
+                      </li>
+                      <li class="mb-2">
+                        <a id="text_hover" href="#">Them Customizer</a>
+                      </li>
+                      <li class="mb-2">
+                        <a id="text_hover" href="#">Ui Kit</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- INCLUDES -->
+                  <div class="col-lg-3 mb-3 col-md-6 text-start">
+                    <p id="footer_text_design" class="fw-semibold">INCLUDES</p>
+                    <ul class="list-unstyled mb-0">
+                      <li class="mb-2">
+                        <a id="text_hover" href="#">Utilites</a>
+                      </li>
+                      <li class="mb-2">
+                        <a id="text_hover" href="#">Components</a>
+                      </li>
+                      <li class="mb-2">
+                        <a id="text_hover" href="#">Layouts</a>
+                      </li>
+                      <li class="mb-2">
+                        <a id="text_hover" href="#">Code Samples</a>
+                      </li>
+                      <li class="mb-2">
+                        <a id="text_hover" href="#">Products</a>
+                      </li>
+                      <li class="mb-2">
+                        <a id="text_hover" href="#">Affiliet</a>
+                      </li>
+                      <li class="mb-2">
+                        <a id="text_hover" href="#">Updates</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- LEGAL -->
+                  <div class="col-lg-3 mb-3 col-md-6 text-start">
+                    <p id="footer_text_design" class="fw-semibold">LEGAL</p>
+                    <ul class="list-unstyled mb-0">
+                      <li class="mb-2">
+                        <a id="text_hover" href="#">Privacy Policy</a>
+                      </li>
+                      <li class="mb-2">
+                        <a id="text_hover" href="#">Them and Conditions</a>
+                      </li>
+                      <li class="mb-2">
+                        <a id="text_hover" href="#">License</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr id="HRLine" class="my-5" />
+            <!-- section-2 footer-rounded-->
+            <!-- Copy text work here -->
+            <div class="d-flex flex-column flex-sm-row justify-content-between">
+              <div id="footer_text_design2">Copyright © Your Website 2024</div>
+              <div id="footer_text_design2">
+                Privacy Policy · Terms & Conditions
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- BOOTSTRAP CDN HERE -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

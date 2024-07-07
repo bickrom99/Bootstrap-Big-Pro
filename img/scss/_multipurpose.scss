@@ -1,0 +1,92 @@
+@media screen and (min-width: 992px) {
+  .divider-right {
+    border-right: 0.0625rem solid #e0e5ec;
+  }
+}
+// pxy-10 work here
+.pxy-10 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.pxy-5 {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+// All text hover work here
+#text-hover {
+  text-decoration: none;
+  color: #a7aeb8;
+  &:hover {
+    text-decoration: underline;
+    color: #a7aeb8;
+  }
+}
+// header_page_bg
+#header_page_bg {
+  background: #0061f2 !important;
+}
+// Multipurpose_header_text
+#Multipurpose_header_text {
+  font-size: 1.1rem;
+}
+// Multipurpose_svg_border
+#Multipurpose_svg_border {
+  color: white !important;
+}
+// Multipurpose_svg_border2
+#Multipurpose_svg_border2 {
+  background: White;
+}
+#Multipurpose_svg_border2 svg {
+  color: #f2f6fc;
+}
+// Multipurpose_sectio2_icon
+#Multipurpose_sectio2_icon {
+  width: 4rem;
+  height: 4rem;
+}
+// mlt_text
+.mlt_text {
+  font-size: 1.1rem;
+  color: #889ba8;
+}
+// mlt_text2
+.mlt_text2 {
+  @extend .mlt_text;
+  font-size: 13px !important;
+  font-weight: 400;
+}
+/*----section-3 design work here----*/
+// Multipurpose_section3_bg
+#Multipurpose_section3_bg {
+  background: #f2f6fc;
+}
+// border_radius
+.border_radius {
+  border-radius: 10px !important;
+}
+.landing-portfolio-item {
+  transform: rotateY(30deg) rotateX(15deg) !important;
+}
+.google_text {
+  color: #a7aeb8;
+  font-weight: 700;
+}
+// Adam_txt
+.Adam_txt {
+  color: #69707a;
+}
+
+// Multipurpose_section4
+#Multipurpose_section4 {
+  background: #f2f6fc;
+}
+
+//section-4_card-icon-bg
+.section5_card_icon {
+  background: #6900c7;
+}
+//section-4_card-text
+.section5_card_txt {
+  color: #6900c7;
+}

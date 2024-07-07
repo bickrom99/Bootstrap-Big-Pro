@@ -1,0 +1,399 @@
+/*--Multipurpose.html style*/
+@import "./multipurpose";
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: sans-serif;
+  line-height: 1.3rem;
+}
+img {
+  max-width: 100%;
+}
+// icons
+.icons {
+  padding: 20px;
+  border-radius: 100%;
+}
+//svg border_rounded responsive here
+@media screen and (min-width: 420px) {
+  .svg-border-rounded svg {
+    height: 2rem;
+  }
+}
+
+/*-----Navbar border-bottom color---*/
+#navbar_bg {
+  border-bottom: 1px solid #efefefe6;
+}
+
+// Navbar logo here
+.navBar a {
+  color: #5d7dff;
+}
+.navBar a img {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: #5d7dff;
+  border-radius: 20%;
+}
+/*----Landing page dropdown menu design here----*/
+#first_dropdown_menu {
+  margin-top: 10px;
+  width: 650px;
+  border: none;
+  box-shadow: 0 0 10px 0 #d2d1d1e2;
+}
+/*----Landing page (Dropdown menu)---*/
+#drpdn_col_1 {
+  background-image: linear-gradient(to bottom, #1933c980, #1933c99a),
+    url("img/bg-dropdown-xl.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: #fff;
+}
+/*----Documentation dropdown design here--*/
+#DocumentationDropdown {
+  margin-top: 10px;
+  width: 350px;
+  border: none;
+  box-shadow: 0 0 10px 0 #d2d1d1e2;
+}
+/*---Documentation dropdown txt----*/
+.small {
+  color: rgb(147, 146, 146);
+}
+/*----Documentation dropddown icon here---*/
+.icon-stack {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 1rem;
+  background-color: #f2f6fc;
+  flex-shrink: 0;
+}
+/*----page-header-ui----*/
+.page-header-ui {
+  position: relative;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+/*----text_title_clr---*/
+#text_title_clr {
+  color: #6a6a6a !important;
+  font-family: sans-serif;
+  font-weight: 200;
+  line-height: 1.8rem;
+}
+
+/*header_btn_bg*/
+#header_btn_bg {
+  background: #dae7fb;
+}
+/*---dcmtion_btn---*/
+#dcmtion_btn {
+  background: #c9dcf8a1 !important;
+  margin-bottom: 0;
+  color: #1592f5 !important;
+}
+/*-----bg-bottom-rounded design here----*/
+.svg-border-rounded {
+  color: #f2f6fc;
+}
+.svg-border-rounded svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3rem;
+  width: 100%;
+}
+/*------Project_section----*/
+#Explore {
+  background-color: #f2f6fc !important;
+  width: 100%;
+  position: relative;
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+}
+#text_title_clr2 {
+  color: #6a6a6a !important;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 1.15rem;
+  line-height: 1.8rem;
+}
+/*----Hover Animation work here---*/
+
+.lift {
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
+  transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.lift:hover {
+  transform: translateY(-0.3333333333rem);
+  transition: 350ms;
+}
+
+/*-----section-2 fotter with section-3 header work design here----*/
+.svg-border-rounded2 {
+  background: #f2f6fc;
+}
+
+.svg-border-rounded2 svg {
+  height: 3rem;
+  width: 100%;
+  color: #fff;
+}
+/*----section-3 workk  here------*/
+#Explore2 {
+  background-color: #ffffff !important;
+  width: 100%;
+  position: relative;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+}
+/*----section-3 all page shadow here----*/
+.list-shadow {
+  box-shadow: 0 0 10px 0 #e4e4e4df;
+}
+/*----Inner Page(section-3)----*/
+#list-group-item:hover {
+  background: #f2f6fc;
+}
+
+/*-----section-3 fotter with section-4 header work design here----*/
+.svg-border-rounded3 {
+  background: #ffffff;
+}
+.svg-border-rounded3 svg {
+  height: 3rem;
+  width: 100%;
+  color: #f2f6fc;
+}
+/*-----section-4 text color ----*/
+#section_4_text {
+  color: #c5ccd6 !important;
+}
+/*---Footer Text Design here----*/
+#SB_Ui_design {
+  color: #a7aeb8;
+}
+#footer_text_design {
+  color: #a7aeb8;
+  font-size: 1.1rem;
+}
+/*-----media_icon----*/
+#media_icon {
+  color: #a7aeb8 !important;
+}
+/*----text_hover---*/
+#text_hover {
+  text-decoration: none;
+  color: #a7aeb8;
+  &:hover {
+    text-decoration: underline;
+    color: #a7aeb8;
+  }
+}
+/*----Footer-section design here----*/
+#Explore3 {
+  @extend #Explore;
+  padding-top: 6rem !important;
+  padding-bottom: 3rem;
+}
+/*---hr design--*/
+#HRLine {
+  color: #a7aeb8;
+}
+#footer_text_design2 {
+  color: #a7aeb8;
+  font-size: 1rem;
+}
+
+/*==========Basic Page design start work here==========*/
+/*---nav_bg---*/
+#nav_bg {
+  background: #0061f2;
+}
+// nav_all_page_color
+#nav_page_color {
+  color: #989aef;
+}
+// nav_btn_color
+#nav_btn_color {
+  background: #0bc9d7;
+  color: white;
+}
+// header_linear-gradien bg_color
+#header_bg_color {
+  background-color: #0061f2 !important;
+  background-image: linear-gradient(
+    135deg,
+    #0061f2 0%,
+    rgba(105, 0, 199, 0.8) 100%
+  ) !important;
+}
+// header-text-color
+#header_txt {
+  color: #989aef;
+}
+/*-----bg-bottom-rounded design here----*/
+.svg-border-rounded4 {
+  color: white;
+}
+.svg-border-rounded4 svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2.5rem;
+  width: 100%;
+}
+#section_2_design {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+/*section_2_bottom_rounded*/
+#section_2_bottom_rounded {
+  color: #212832;
+}
+/*--basic_page_footer_bg---*/
+#basic_page_footer_bg {
+  background: #212832;
+  padding-bottom: 4rem;
+  padding-top: 5rem;
+}
+/*========About.html design  here======*/
+/*========About.html design  here======*/
+#Hr_line {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.svg-border-rounded5 {
+  background: #ffffff;
+}
+.svg-border-rounded5 svg {
+  height: 2.5rem;
+  width: 100%;
+  color: #f2f6fc;
+}
+.lead_txt {
+  color: #99a09c !important;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: justify;
+}
+/*svg-arrow*/
+.svg-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  padding: 10px;
+  border-radius: 100%;
+}
+/*========pricing.html design  here======*/
+/*========pricing.html design  here======*/
+//section_2_pricing
+#section_2_pricing {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+// card shadow
+#section_2_shadow {
+  box-shadow: 0 0 10px 0 #d0d0d1 !important;
+}
+// pricing-price
+.pricing-price {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  color: #363d47;
+}
+// card-body ul design work here
+.pricing-list {
+  padding: 0;
+  list-style: none;
+}
+.fa-ul {
+  position: relative;
+  text-align: start;
+  left: 1rem;
+}
+.pricing-list-item {
+  padding-bottom: 0.75rem;
+}
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  color: #16d145;
+}
+/*section-3*/
+/*section-3*/
+/*---section-3_sadhow---*/
+#section-3_sadhow {
+  box-shadow: 0 0 10px 0 #d0d0d1;
+  border: none;
+}
+/*---section_3_pricing---*/
+#section_3_pricing {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+//card_2-section_3
+#card_2-section_3 {
+  border: none !important;
+}
+//Section_3_card-body
+#Section_3_card-body {
+  background: #363d47;
+  border-top-right-radius: 5px;
+}
+//section_3_badge
+#section_3_badge {
+  color: #697073;
+  background: #303740;
+}
+/*--section_3_text---*/
+.section_3_text {
+  font-size: 0.9rem;
+  color: #697073;
+}
+/*---section-4 design here---*/
+#section_4_shadow {
+  box-shadow: 0 0 10px 0 #d0d0d1;
+}
+/*----Contact.html------*/
+/*----Contact.html------*/
+//contact_page_header_border
+#contact_page_header_border {
+  color: #f2f6fc !important;
+}
+
+// contact_page_bg
+#contact_page_bg {
+  background: #f2f6fc;
+}
+#contact_page_card_pdng {
+  width: 4rem;
+  height: 4rem;
+}
+
+// contact_page_section2_border_btm
+#contact_page_section2_border_btm {
+  background: #f2f6fc;
+}
